@@ -1,0 +1,21 @@
+
+@keyframes kakashi {
+	0%,
+	100% {
+		transform: translateY(10px);
+	}
+
+	
+	75% {
+		transform: translateX(50px) translateY(50px);
+	}
+
+	100% {
+		transform: translateX(120px) rotateY(300deg);
+	}
+}
+
+.kakashi {
+	background-image: linear-gradient(violet, red, yellow);
+	animation: kakashi 0.8s ease infinite;
+}
